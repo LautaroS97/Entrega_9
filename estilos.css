@@ -1,0 +1,156 @@
+/*reseteo*/
+*{
+    background-color: black;
+}
+/*menú*/
+.logo{
+    animation: girar 20s linear infinite;
+    background-color: transparent;
+    margin-right: 3rem;
+}
+@keyframes girar{
+    from{}
+    to{
+        transform: rotate(360deg);
+    }
+}
+h3{
+    font-family: 'Cinzel', serif;
+    margin: 1rem;
+    color: rgb(245, 159, 21);
+}
+h4{
+    font-family: 'Marcellus', serif;
+    margin: 0.4rem;
+    margin-left: 2rem;
+    color: white;
+}
+.iluminar:hover{
+    color: rgb(245, 159, 21);
+}
+/*título de la página*/
+.page{
+    background-color: rgb(245, 159, 21);
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
+}
+.page h1{
+    background-color: rgb(245, 159, 21);
+    color: black;
+    height: 4rem;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin-top: 2rem;
+}
+/*footer*/
+.footer{
+    background-color: rgb(245, 159, 21);
+    height: 15rem;
+    padding: 4rem;
+    text-align: center;
+    border-top: black 5px solid;
+}
+.footer h2{
+    background-color: rgb(245, 159, 21);
+    color: black;
+    font-family: 'Cinzel', serif;
+}
+.footer h3{
+    background-color: rgb(245, 159, 21);
+    color: black;
+    font-family: 'Marcellus', serif;
+}
+/*página principal*/
+.encabezado:hover{
+    opacity: 75%;
+}
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.buybuttom{
+    width: 240px;
+    height: 70px;
+    background-color: rgb(245, 159, 21);
+    color: black;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: black double 5px;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.buybuttom h2{
+    background-color: transparent;
+    text-decoration: none;
+}
+.buybuttom:hover{
+    background-color: black;
+    color: rgb(245, 159, 21);
+    border-color: rgb(245, 159, 21);
+    border: solid 5px;
+}
+.galeria{
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+    padding-bottom: 1rem;
+}
+.galdeimg{
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    background-color: rgb(245, 159, 21);
+    margin-bottom: 1rem;
+    color: black;
+    width: 100%;
+}
+/*sinopsis*/
+.video{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Marcellus', serif;
+    text-align: justify;
+    font-size: 1.095rem;
+}
+/*universo*/
+.advertencia{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    background-color: rgb(245, 159, 21);
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: black;
+}
+.deslizar{
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+/*autor*/
+.bio{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Marcellus', serif;
+    text-align: justify;
+    font-size: 1.05rem;
+}
+/*contacto*/
+.formulario{
+    color: white;
+    padding: 3rem;
+}
+.contactbuttom{
+    margin-top: 1rem;
+}
+.selectlist{
+    color: white;
+}
